@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-20T09:20:38.994Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="TVOpdcG7SVnPjhJKcNsL" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2020-01-06T11:53:46.169Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="uHL1Ab5EQxHmALkR1Fgw" version="12.4.8" type="github">
   <diagram id="Wt3J7NYyZq6BP8QyCItN" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,19 +67,19 @@
         <mxCell id="slxPLqcGu1tg5bBsfPHJ-19" value="{&lt;br&gt;_internalRoot: DOMRender.createContainer(container, isConcurrent, hydrate)&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="670" width="350" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="xOmj7P0pZRFATEH8uKoa-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="slxPLqcGu1tg5bBsfPHJ-21" target="xOmj7P0pZRFATEH8uKoa-1">
+        <mxCell id="xOmj7P0pZRFATEH8uKoa-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="slxPLqcGu1tg5bBsfPHJ-21" target="xOmj7P0pZRFATEH8uKoa-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="slxPLqcGu1tg5bBsfPHJ-21" value="createFiberRoot(container, isConcurrnet, hydrate)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="810" width="350" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="xOmj7P0pZRFATEH8uKoa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xOmj7P0pZRFATEH8uKoa-1" target="xOmj7P0pZRFATEH8uKoa-3">
+        <mxCell id="xOmj7P0pZRFATEH8uKoa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xOmj7P0pZRFATEH8uKoa-1" target="xOmj7P0pZRFATEH8uKoa-3" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="xOmj7P0pZRFATEH8uKoa-1" value="render 里的container（document.getElementById(&quot;app&quot;)）最终转化成了一个fiberroot对象&lt;br&gt;{&lt;br&gt;_internalRoot: fiberRootObj}&lt;br&gt;然后调用updateekContainer时，第一个参数还是APP第二个就是一个fiber对象了" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="950" width="350" height="140" as="geometry"/>
+        <mxCell id="xOmj7P0pZRFATEH8uKoa-1" value="render 里的container（document.getElementById(&quot;app&quot;)）最终转化成了一个fiberroot对象&lt;br&gt;{&lt;br&gt;_internalRoot: fiberRootObj}&lt;br&gt;然后调用updateekContainer时，第一个参数还是APP第二个就是一个fiber对象了" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="952" width="350" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="xOmj7P0pZRFATEH8uKoa-3" value="react-render&lt;br&gt;1、根据container创建一个fiberroot，同时原生的container属性里多了一个_reactRootContainer&lt;br&gt;container={&lt;br&gt;_reactRootContainer：root:fiberRoot&lt;br&gt;}&lt;br&gt;2、根据react-node 和fiberroot创建一个updater，放入队列去" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xOmj7P0pZRFATEH8uKoa-3" value="react-render&lt;br&gt;1、根据container创建一个fiberroot，同时原生的container属性里多了一个_reactRootContainer&lt;br&gt;container={&lt;br&gt;_reactRootContainer：root:fiberRoot&lt;br&gt;}&lt;br&gt;2、根据react-node 和fiberroot创建一个updater，放入队列去" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="1170" width="350" height="140" as="geometry"/>
         </mxCell>
         <mxCell id="slxPLqcGu1tg5bBsfPHJ-9" value="render" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
