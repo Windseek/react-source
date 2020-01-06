@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T13:35:26.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="eYJ1kFPEy7MUou26Va3P" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T13:38:26.779Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="L9V1WqmXmXWwjopwR_Zk" version="12.4.8" type="github">
   <diagram id="UDHN2HxAG6FX_cLJGv5e" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,28 +8,28 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="rQTwvaYBVOS84T_QI0h9-2" value="let currentTime=requestCurrentTime()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="245" width="250" height="60" as="geometry"/>
+          <mxGeometry x="210" y="200" width="250" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="rQTwvaYBVOS84T_QI0h9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rQTwvaYBVOS84T_QI0h9-3" target="rQTwvaYBVOS84T_QI0h9-7" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="rQTwvaYBVOS84T_QI0h9-3" value="&lt;br&gt;1、如果是rendering则直接return currentSchedulerTime&lt;br&gt;2、如果不在pending状态，则 recomputeCurrentRenderTime()执行后，再去currentRenderTime，之后再return出来。&lt;br&gt;currentSchedulerTime=currentRenderTime&lt;br&gt;3、return currentSchedulerTime" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="420" y="230" width="350" height="90" as="geometry"/>
+          <mxGeometry x="160" y="360" width="350" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="rQTwvaYBVOS84T_QI0h9-7" value="&lt;br&gt;1、currentTimeMs=now()-originalStarTimeMs;&lt;br&gt;2、currentRenderTime=msToExpirationTime(currentTimeMs)" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="420" y="380" width="350" height="140" as="geometry"/>
+          <mxGeometry x="160" y="580" width="350" height="140" as="geometry"/>
         </mxCell>
         <mxCell id="rQTwvaYBVOS84T_QI0h9-6" value="&lt;span style=&quot;white-space: normal&quot;&gt;requestCurrentTime&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="500" y="150" width="120" height="80" as="geometry"/>
+          <mxGeometry x="380" y="280" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="rQTwvaYBVOS84T_QI0h9-9" value="recomputeCurrentRenderTime" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="330" width="210" height="80" as="geometry"/>
+        <mxCell id="rQTwvaYBVOS84T_QI0h9-9" value="recomputeCurrentRenderTime" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="500" width="210" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="rQTwvaYBVOS84T_QI0h9-10" value="最终得到的是当前时间和js buddle加载完成之后的时间间隔" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" parent="1" vertex="1">
-          <mxGeometry y="165" width="270" height="80" as="geometry"/>
+        <mxCell id="rQTwvaYBVOS84T_QI0h9-10" value="最终得到的是当前时间和js buddle加载完成之后的时间间隔" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.79;" parent="1" vertex="1">
+          <mxGeometry x="50" y="120" width="270" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="aaGaK576HahdfC4CCMwQ-2" value="&lt;span style=&quot;white-space: normal&quot;&gt;在一次render里，currentSchedulerTime是一样的&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="280" y="165" width="120" height="80" as="geometry"/>
+          <mxGeometry x="380" y="120" width="120" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
