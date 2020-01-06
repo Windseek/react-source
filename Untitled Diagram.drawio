@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T13:04:36.387Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="43xMimEIHRZuf6PtiCYp" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T13:09:16.029Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Bdzcv0oZbW_Wv-Dp_z9B" version="12.4.8" type="github">
   <diagram id="UDHN2HxAG6FX_cLJGv5e" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,10 @@
           <mxGeometry x="210" y="330" width="210" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="rQTwvaYBVOS84T_QI0h9-10" value="最终得到的是当前时间和js buddle加载完成之后的时间间隔" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" parent="1" vertex="1">
-          <mxGeometry x="80" y="165" width="270" height="80" as="geometry"/>
+          <mxGeometry y="165" width="270" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="aaGaK576HahdfC4CCMwQ-2" value="&lt;span style=&quot;white-space: normal&quot;&gt;在一次render里，currentSchedulerTime是一样的&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="165" width="120" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
