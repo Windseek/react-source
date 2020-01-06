@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T13:37:13.259Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="RDCPUG3N5T3y8bQh-3tm" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T14:08:54.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="3NEgQ3lYO7ARK_i9cZ_p" version="12.4.8" type="github">
   <diagram id="TR_Le1okLgwm1WZ30mg6" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,6 +89,24 @@
         </mxCell>
         <mxCell id="vWD8TSmDec4GoeiwaAQd-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="375" y="422" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-21" target="vWD8TSmDec4GoeiwaAQd-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-21" value="computeExpirationBucket(&lt;br&gt;currentTime,&lt;br&gt;expirationInMs,&lt;br&gt;bucketSizeMs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="745" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-22" target="vWD8TSmDec4GoeiwaAQd-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-22" value="return MAGIC_NUMBER_OFFSET+&lt;br&gt;ceiling(currentTime - MAGIC_NUMBER_OFFSET&lt;br&gt;+expirationInMs/UNIT_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="700" width="170" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-24" value="return (((num / precision)|0)+1)*precision" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="930" width="170" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-26" value="最终计算出来的expirationTime是这样的&lt;br&gt;1、在&lt;span style=&quot;text-align: center&quot;&gt;computeAsyncExpirationI&lt;/span&gt;中计算出来的，是每隔25增加一次，直接加25&lt;br&gt;2、在&lt;span style=&quot;text-align: center&quot;&gt;computeInteractiveExpiration&lt;/span&gt;中计算出来的，是每隔开10个增加一次&lt;br&gt;3、&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_EXPRITION = 500&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE = 100，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_EXPIRATION = 5000，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE = 250，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE = 10,&lt;br&gt;MAGIC_NUMBER_OFFSET = 2,&lt;br&gt;&lt;br&gt;(10000 - 2) + 5000/10&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="521" y="770" width="260" height="220" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
