@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T13:34:16.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="u-zILqEB53d9kdxjT9kO" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T13:35:26.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="eYJ1kFPEy7MUou26Va3P" version="12.4.8" type="github">
   <diagram id="UDHN2HxAG6FX_cLJGv5e" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,92 +30,6 @@
         </mxCell>
         <mxCell id="aaGaK576HahdfC4CCMwQ-2" value="&lt;span style=&quot;white-space: normal&quot;&gt;在一次render里，currentSchedulerTime是一样的&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="280" y="165" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQZugr7V2sOh11AZBSBJ-1" target="gQZugr7V2sOh11AZBSBJ-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="610" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-1" value="let expirationTime = computeExpirationForFiber(currentTime, current)" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="10" y="554" width="280" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gQZugr7V2sOh11AZBSBJ-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="730" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="530" y="681"/>
-              <mxPoint x="370" y="681"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQZugr7V2sOh11AZBSBJ-4" target="gQZugr7V2sOh11AZBSBJ-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="584" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="530" y="680"/>
-              <mxPoint x="680" y="680"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-4" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;fiber.mode &amp;amp; concurrentMode&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="536" width="220" height="96" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-7" value="computerExpirationForFiber" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.12;" vertex="1" parent="1">
-          <mxGeometry x="620" y="500" width="170" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-8" value="expertionTime=Sync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="740" width="120" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-14" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="653" width="40" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-15" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="653" width="30" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gQZugr7V2sOh11AZBSBJ-16" target="gQZugr7V2sOh11AZBSBJ-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="910" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="370" y="850"/>
-              <mxPoint x="180" y="850"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gQZugr7V2sOh11AZBSBJ-16" target="gQZugr7V2sOh11AZBSBJ-22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="880" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="370" y="850"/>
-              <mxPoint x="580" y="850"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-16" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;isBatchingInteractiveUpdates&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="730" width="300" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gQZugr7V2sOh11AZBSBJ-19" target="gQZugr7V2sOh11AZBSBJ-27">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-19" value="computeInteractiveExpiration(currentTime)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="880" width="250" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-27" value="return computeExpirationBucket(CurrentTime, HIGH_PRIORITY_EXPRITION, HIGH_PRIORITY_BATCH_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1020" width="250" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gQZugr7V2sOh11AZBSBJ-22" target="gQZugr7V2sOh11AZBSBJ-25">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-22" value="computeAsyncExpirationI(currentTime)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="880" width="410" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-25" value="return computeExpirationBucket(CurrentTime, LOW_PRIORITY_EXPIRATION, LOW_PRIORITY_BATCH_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1020" width="410" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-23" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="827" width="40" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="gQZugr7V2sOh11AZBSBJ-24" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="827" width="30" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
