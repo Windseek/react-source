@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T11:53:46.169Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="uHL1Ab5EQxHmALkR1Fgw" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T11:56:02.844Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="wFi0XvMzGHmG5Q-KGSTc" version="12.4.8" type="github">
   <diagram id="Wt3J7NYyZq6BP8QyCItN" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="xOmj7P0pZRFATEH8uKoa-1" value="render 里的container（document.getElementById(&quot;app&quot;)）最终转化成了一个fiberroot对象&lt;br&gt;{&lt;br&gt;_internalRoot: fiberRootObj}&lt;br&gt;然后调用updateekContainer时，第一个参数还是APP第二个就是一个fiber对象了" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="952" width="350" height="140" as="geometry"/>
+          <mxGeometry x="310" y="950" width="350" height="140" as="geometry"/>
         </mxCell>
         <mxCell id="xOmj7P0pZRFATEH8uKoa-3" value="react-render&lt;br&gt;1、根据container创建一个fiberroot，同时原生的container属性里多了一个_reactRootContainer&lt;br&gt;container={&lt;br&gt;_reactRootContainer：root:fiberRoot&lt;br&gt;}&lt;br&gt;2、根据react-node 和fiberroot创建一个updater，放入队列去" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="1170" width="350" height="140" as="geometry"/>
