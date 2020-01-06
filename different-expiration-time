@@ -1,1 +1,42 @@
-<mxfile host="www.draw.io" modified="2020-01-06T14:26:44.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.4.8" etag="CR6KOtzzlRz14Z2GH3Gd" type="github"><diagram id="M117xJYNYJDGocn1hxBR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-06T14:46:07.208Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="bTYt-4y16emjtQrLxDdR" version="12.4.8" type="github">
+  <diagram id="M117xJYNYJDGocn1hxBR" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMtg0ke5cnBpsQFx8JmX-1" target="jMtg0ke5cnBpsQFx8JmX-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-1" value="flushSync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMtg0ke5cnBpsQFx8JmX-2" target="jMtg0ke5cnBpsQFx8JmX-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-2" value="isBatchingUpdates = true&lt;br&gt;&lt;br&gt;syncUpdate(fn, a)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-9" value="expirationContext=Sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="450" width="560" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMtg0ke5cnBpsQFx8JmX-4" target="jMtg0ke5cnBpsQFx8JmX-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-4" value="concurrent-mode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jMtg0ke5cnBpsQFx8JmX-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="130" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-5" value="flushSync(setState)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jMtg0ke5cnBpsQFx8JmX-11" value="expirationContext在syncUpdate时会被更新，&lt;br&gt;在diferredUpdates里也会被更新到&lt;br&gt;let currentTime = requestCurrentTime();&lt;br&gt;expirationContext=computeAsyncExpirationTime(currentTime)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="350" height="160" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
