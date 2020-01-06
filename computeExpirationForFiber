@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T14:39:25.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="fa_5Yki-zgVGM2pxT6zP" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T14:47:47.117Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Os2bxoqeHqAZ02QYp9Om" version="12.4.8" type="github">
   <diagram id="TR_Le1okLgwm1WZ30mg6" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,8 +58,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-12" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;isBatchingInteractiveUpdates&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="325" width="300" height="80" as="geometry"/>
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-12" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;isBatchingInteractiveUpdates（大部分情况下都会是true）&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="300" height="85" as="geometry"/>
         </mxCell>
         <mxCell id="vWD8TSmDec4GoeiwaAQd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-14" target="vWD8TSmDec4GoeiwaAQd-15">
           <mxGeometry relative="1" as="geometry"/>
