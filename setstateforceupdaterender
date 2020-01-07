@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-07T12:34:03.437Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="AtLiG_hQ9yGagacyr_Bt" version="12.5.0" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T12:36:09.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="PfrtpsjrSIcCscRn6241" version="12.5.0" type="github">
   <diagram id="nlke3bNHkrRSGT6IKdmD" name="Page-1">
     <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,6 +66,15 @@
             <mxPoint x="210" y="380" as="sourcePoint"/>
             <mxPoint x="260" y="330" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Waa7m8eGXHH7RjpnXmRW-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Waa7m8eGXHH7RjpnXmRW-21" target="Waa7m8eGXHH7RjpnXmRW-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Waa7m8eGXHH7RjpnXmRW-21" value="enqueueForceUpdate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="500" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="Waa7m8eGXHH7RjpnXmRW-22" value="update.tag = Forceupdate&lt;br&gt;其他的和enqueuesetstate保持一致" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="233" y="500" width="200" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
