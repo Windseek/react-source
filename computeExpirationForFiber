@@ -1,13 +1,13 @@
-<mxfile host="www.draw.io" modified="2020-01-06T14:50:29.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="MTsGjrknJLSsVuhlzh2E" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T14:02:35.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ajp-0v9YVD1lTY0f5kvM" version="12.5.1" type="github">
   <diagram id="TR_Le1okLgwm1WZ30mg6" name="Page-1">
-    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-2" value="let expirationTime = computeExpirationForFiber(currentTime, current)" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-2" value="let expirationTime = computeExpirationForFiber(currentTime, current)" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="10" y="149" width="280" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-5">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vWD8TSmDec4GoeiwaAQd-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="325" as="targetPoint"/>
             <Array as="points">
@@ -16,7 +16,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-5" target="vWD8TSmDec4GoeiwaAQd-7">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vWD8TSmDec4GoeiwaAQd-5" target="vWD8TSmDec4GoeiwaAQd-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="179" as="targetPoint"/>
             <Array as="points">
@@ -25,22 +25,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-5" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;fiber.mode &amp;amp; concurrentMode(0b001)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-5" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;fiber.mode &amp;amp; concurrentMode(0b001)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="131" width="220" height="96" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-6" value="computerExpirationForFiber" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.12;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-6" value="computerExpirationForFiber" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.12;" parent="1" vertex="1">
           <mxGeometry x="620" y="95" width="170" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-7" value="expertionTime=Sync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-7" value="expertionTime=Sync" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="335" width="120" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-8" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-8" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="248" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-9" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-9" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="248" width="30" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-12" target="vWD8TSmDec4GoeiwaAQd-14">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vWD8TSmDec4GoeiwaAQd-12" target="vWD8TSmDec4GoeiwaAQd-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="505" as="targetPoint"/>
             <Array as="points">
@@ -49,7 +49,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-12" target="vWD8TSmDec4GoeiwaAQd-17">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vWD8TSmDec4GoeiwaAQd-12" target="vWD8TSmDec4GoeiwaAQd-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="475" as="targetPoint"/>
             <Array as="points">
@@ -58,67 +58,67 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-12" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;isBatchingInteractiveUpdates（大部分情况下都会是true）&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-12" value="&lt;span style=&quot;text-align: left ; white-space: normal&quot;&gt;isBatchingInteractiveUpdates（大部分情况下都会是true）&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="320" width="300" height="85" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-14" target="vWD8TSmDec4GoeiwaAQd-15">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vWD8TSmDec4GoeiwaAQd-14" target="vWD8TSmDec4GoeiwaAQd-15" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-14" value="computeInteractiveExpiration(currentTime)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-14" value="computeInteractiveExpiration(currentTime)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="475" width="250" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-15" value="return computeExpirationBucket(CurrentTime, HIGH_PRIORITY_EXPRITION, HIGH_PRIORITY_BATCH_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-15" value="return computeExpirationBucket(CurrentTime, HIGH_PRIORITY_EXPRITION, HIGH_PRIORITY_BATCH_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="615" width="250" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-17" target="vWD8TSmDec4GoeiwaAQd-18">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vWD8TSmDec4GoeiwaAQd-17" target="vWD8TSmDec4GoeiwaAQd-18" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-17" value="computeAsyncExpirationI(currentTime)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-17" value="computeAsyncExpirationI(currentTime)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="475" width="410" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-18" value="return computeExpirationBucket(CurrentTime, LOW_PRIORITY_EXPIRATION, LOW_PRIORITY_BATCH_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-18" value="return computeExpirationBucket(CurrentTime, LOW_PRIORITY_EXPIRATION, LOW_PRIORITY_BATCH_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="615" width="410" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-19" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-19" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="422" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="422" width="30" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-21" target="vWD8TSmDec4GoeiwaAQd-22">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vWD8TSmDec4GoeiwaAQd-21" target="vWD8TSmDec4GoeiwaAQd-22" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-21" value="computeExpirationBucket(&lt;br&gt;currentTime,&lt;br&gt;expirationInMs,&lt;br&gt;bucketSizeMs)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-21" value="computeExpirationBucket(&lt;br&gt;currentTime,&lt;br&gt;expirationInMs,&lt;br&gt;bucketSizeMs)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="745" width="170" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-22" target="vWD8TSmDec4GoeiwaAQd-24">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vWD8TSmDec4GoeiwaAQd-22" target="vWD8TSmDec4GoeiwaAQd-24" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-22" value="return MAGIC_NUMBER_OFFSET+&lt;br&gt;ceiling(currentTime - MAGIC_NUMBER_OFFSET&lt;br&gt;+expirationInMs/UNIT_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-22" value="return MAGIC_NUMBER_OFFSET+&lt;br&gt;ceiling(currentTime - MAGIC_NUMBER_OFFSET&lt;br&gt;+expirationInMs/UNIT_SIZE)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="700" width="170" height="150" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-24" value="return (((num / precision)|0)+1)*precision" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-24" value="return (((num / precision)|0)+1)*precision" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="930" width="170" height="150" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-26" value="最终计算出来的expirationTime是这样的&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;1、在&lt;span style=&quot;text-align: center&quot;&gt;computeAsyncExpirationI&lt;/span&gt;中计算出来的，是每隔25增加一次，直接加25&lt;br&gt;2、在&lt;span style=&quot;text-align: center&quot;&gt;computeInteractiveExpiration&lt;/span&gt;中计算出来的，是每隔开10个增加一次&lt;/font&gt;&lt;br&gt;3、&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_EXPRITION = 500&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE = 100，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_EXPIRATION = 5000，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE = 250，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE = 10,&lt;br&gt;MAGIC_NUMBER_OFFSET = 2,&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;((((&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;currentTime&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;MAGIC_NUMBER_OFFSET&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;) +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_EXPIRATION&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;) / (&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;)) | 0) *(&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;) +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;MAGIC_NUMBER_OFFSET&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;((((&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;currentTime&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;MAGIC_NUMBER_OFFSET&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;) +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_EXPRITION&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;) / (&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;)) | 0) *(&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;) +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;MAGIC_NUMBER_OFFSET&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;((((10000 - 2) + 5000/10) / (250/10)) | 0) *(250/10) + 2&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;((((10000 - 2) + 500/10) / (100/10)) | 0) * (100/10) + 2&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;color=red;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-26" value="最终计算出来的expirationTime是这样的&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;1、在&lt;span style=&quot;text-align: center&quot;&gt;computeAsyncExpirationI&lt;/span&gt;中计算出来的，是每隔25增加一次，直接加25&lt;br&gt;2、在&lt;span style=&quot;text-align: center&quot;&gt;computeInteractiveExpiration&lt;/span&gt;中计算出来的，是每隔开10个增加一次&lt;/font&gt;&lt;br&gt;3、&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_EXPRITION = 500&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE = 100，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_EXPIRATION = 5000，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE = 250，&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE = 10,&lt;br&gt;MAGIC_NUMBER_OFFSET = 2,&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;((((&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;currentTime&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;MAGIC_NUMBER_OFFSET&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;) +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_EXPIRATION&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;) / (&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;)) | 0) *(&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;LOW_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;) +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;MAGIC_NUMBER_OFFSET&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;((((&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;currentTime&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&amp;nbsp;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;MAGIC_NUMBER_OFFSET&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;) +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_EXPRITION&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;) / (&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;)) | 0) *(&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;HIGH_PRIORITY_BATCH_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;UNIT_SIZE&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;) +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;MAGIC_NUMBER_OFFSET&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;((((10000 - 2) + 5000/10) / (250/10)) | 0) *(250/10) + 2&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;((((10000 - 2) + 500/10) / (100/10)) | 0) * (100/10) + 2&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;color=red;" parent="1" vertex="1">
           <mxGeometry x="440" y="680" width="360" height="470" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-27" value="HIGH,&amp;nbsp; 500ms, 100, 10" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-27" value="HIGH,&amp;nbsp; 500ms, 100, 10" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="210" y="550" width="120" height="65" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-28" value="LOW,&amp;nbsp; 5000ms, 250, 25" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-28" value="LOW,&amp;nbsp; 5000ms, 250, 25" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="591" y="550" width="120" height="65" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-29" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;noContext: 0b000&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ConcurrentMode: 0b001&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;StrictMode:0b010&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ProfileMode: 0b100&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;使用二进制方便与或操作，在hooks里setEffect里大量使用里二进制表示状态&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-29" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;noContext: 0b000&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ConcurrentMode: 0b001&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;StrictMode:0b010&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;ProfileMode: 0b100&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;使用二进制方便与或操作，在hooks里setEffect里大量使用里二进制表示状态&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="360" width="190" height="149" as="geometry"/>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWD8TSmDec4GoeiwaAQd-2" target="vWD8TSmDec4GoeiwaAQd-5">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vWD8TSmDec4GoeiwaAQd-2" target="vWD8TSmDec4GoeiwaAQd-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="179" as="targetPoint"/>
             <mxPoint x="290" y="179" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vWD8TSmDec4GoeiwaAQd-34" value="1、大部分情况下都会执行到computeinteractiveexpiration&lt;br&gt;2、大部分情况下都是HIGH_PRIORITY_EXPRITION, HIGH_PRIORITY_BATCH_SIZE&lt;br&gt;是500ms，100，10" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="vWD8TSmDec4GoeiwaAQd-34" value="1、大部分情况下都会执行到computeinteractiveexpiration&lt;br&gt;2、大部分情况下都是HIGH_PRIORITY_EXPRITION, HIGH_PRIORITY_BATCH_SIZE&lt;br&gt;是500ms，100，10" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="70" y="20" width="180" height="129" as="geometry"/>
         </mxCell>
       </root>
