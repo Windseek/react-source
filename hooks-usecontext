@@ -1,1 +1,25 @@
-<mxfile host="www.draw.io" modified="2020-01-13T08:36:24.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.5.1" etag="K6VwW0OJ6S8hKOJgL-3z" type="github"><diagram id="Tg5mHxbLVcSpL4xMAglW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-13T08:43:32.644Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="p_FpvflnEC4fePFbQMVM" version="12.5.1" type="github">
+  <diagram id="Tg5mHxbLVcSpL4xMAglW" name="Page-1">
+    <mxGraphModel dx="946" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="eRlMR2dN7uR676mdUQQM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eRlMR2dN7uR676mdUQQM-1" target="eRlMR2dN7uR676mdUQQM-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eRlMR2dN7uR676mdUQQM-1" value="const TestContext = createContext(&#39;default&#39;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="eRlMR2dN7uR676mdUQQM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eRlMR2dN7uR676mdUQQM-2" target="eRlMR2dN7uR676mdUQQM-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="eRlMR2dN7uR676mdUQQM-2" value="&amp;lt;TestContext.provider value={{&lt;br&gt;name: &#39;杨龙飞&#39;，&lt;br&gt;sex：&#39;男&#39;,&lt;br&gt;prefer: &#39;女&#39;&lt;br&gt;}}&amp;gt;&lt;br&gt;&amp;lt;ContextComp /&amp;gt;&lt;br&gt;&amp;lt;/TestContext.provider&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="eRlMR2dN7uR676mdUQQM-4" value="function ContextComp(props) {&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;br&gt;&amp;nbsp; &amp;nbsp; let context&amp;nbsp; = useContext(TestContext)&lt;br&gt;&amp;nbsp; &amp;nbsp; return &amp;lt;div&amp;gt;&lt;br&gt;姓名：{context.name}&lt;br&gt;性别：{context.sex}&lt;br&gt;爱好：{context.prefer}&lt;br&gt;&amp;lt;/div&amp;gt;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="240" height="230" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
