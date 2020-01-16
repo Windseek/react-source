@@ -1,1 +1,58 @@
-<mxfile host="www.draw.io" modified="2020-01-16T07:10:24.593Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="QjpHgPGd3IkIdwkX5r8Q" version="12.5.3" type="github"><diagram id="XcvHnCpe3sT_nT0ePY8r" name="Page-1">3VnbbuM2EP0aIu2DA+timXyUbLkLFFmkm4c+FoxF29pSl0pybPfrO0NRF1NKkHUSZ1EkCMgROSTPzJkZMsRZJMffCp7v7rJISGJPoyNxlsS2mevBXxScaoFL57VgW8RRLbI6wUP8r9DCqZbu40iUZwOrLJNVnJ8L11mainV1JuNFkR3Oh20yeb5qzrdiIHhYczmU/hlH1a6WUnveyb+IeLtrVrY8Vn9JeDNYn6Tc8Sg79EROSJxFkWVV3UqOCyERuwaXet7qma/txgqRVq+Z8NfXb09l9HT/uxtvNn/wdfh1czexay1PXO71gQ/iMefrv0noETol/pyElFCHBEsSuiRYEEZJOCMUGh6Ogb8Bw4ZvEUr1SatTAx9sASwFneCwiyvxAKrxywF8BWS7KpHQs6Cp9yGKShyfPaDVwgbuJrJEVMUJhhzPXUZ7mtUAf+jsZk+1bNe32VwLufaVbau6gxMaGtEfQNcZoDsEKI18dFPorSUvy3g9houIBl5qoAK04MVWVC/sxh1HrwfPbASdRlYIyav46XwbY4jpFe6zGDbYGqdFvrGOZ4BeZvtiLfSsvhubimaGIstQVOMwUKQM2B77cpu6Q5siH1aE+ooPcxJ4SrIkEOpC6PrAohTiIglXSCC6SPOkbZ94kbYdnBdMFdeUSn/VY5/6xCxUyXxC3V7DxQHBSklc4lOZ8UgUrdpc7tNtnJbDgajVDxWne1SmofpE8Qxs2tsdHMYmQYgNoDtMHFHYOwqcHw7RbRwGK50oAbxmuIQPy3Vnandq0qTI9mkkIk2Kj48lrbv2gwcdoYfpxu8WO2Y/VezwPjV2GJHdNin/6tjBjNhhRv4Pjh3ewKaFKDMJwOgQYiseKsKM8IchZ5A/c2Qd0M/2JCAdPBbQ2mKroR/lMoYzNWQUx0qkZZylnSjhcbqKpWgl7PM5Z1iHDinoeNek4Px6FPxpqGVfSK3WMs8p+mBq0YGtgDAOlrCYXjzMzpigIXEt8FfnItbLezPM1MzpZTAPEzCkNUySoMHGtMrLXTvi+z97AZtuuoXgcAHBtZjSo6pkzHIeVsYMyAF0Km6/Q3bzeIL8SR/LXDmJyeO7bB/tpbgVxzwrKjIfGTJUMh0RgZchrD5+vVzL60T1+fRis6BBywaDTjVUql3jNFtevJv52NQxod1zAbNS4VE0AcKKqpwgXye69Oj5CsXhjGlf8VV5BxUOVD5gWrbEUg8kAQTjQBkb6rw6bMPEqYoB3QQPJ+DqTEX1RbMxe7jpVByQNlHk4+6+gJ77emu/vMGCGwj19+pGita5aV3xZhTJX4dS5wUol7LZokpNAYCmfaEewVYtBxQSVAMFaQ2rV8VArJVdnAvV8zOQ6JvpbbfcWxBJeSI0GuCsqjdb3igPvUxh3sHbU3iLiXYjygrAztLXou2+jPY3sREF/KQQmRvgWwekavxy3H/fAfvh4m8xw5tQM6Oo0X9LPQMF1DaFthSb6n3KGzNDWmykvrFGUr3zYe8T7P9f4FjUqEve693BufK7Q7Ncz1g7nucn9Vg3IEi1gywbTfRDwOAzmIdLKeSkee0buUlA0ePirVzHkUAVT1AzBSMlzmdfHUwrt8bpOVn7Htj3ssFV8t24ZVnXI9crLvCW/aksNF7/2qvej7LQuCK6zpVJaA+NisXgFKsbTNDQ8IYpuz5dAo7/2URxDPxGnrlGeXLBHRu63T83agN0/yFywv8A</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-16T07:12:36.460Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ndH2KThvVcPjzSIDPOXV" version="12.5.4" type="github">
+  <diagram id="XcvHnCpe3sT_nT0ePY8r" name="Page-1">
+    <mxGraphModel dx="946" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="_NRvsdvPK4iffQacENfM-2" value="webpack性能优化方案" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="120" width="200" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-3" value="" style="endArrow=classic;html=1;" parent="1" target="_NRvsdvPK4iffQacENfM-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="sourcePoint"/>
+            <mxPoint x="250" y="110" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-4" value="及时升级node，npm，yarn，尽可能少的的使用loader，plungins使用官方推荐，精确使用，减少不必要的plungins" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" width="280" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-5" value="" style="endArrow=classic;html=1;" parent="1" target="_NRvsdvPK4iffQacENfM-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="210" as="sourcePoint"/>
+            <mxPoint x="290" y="170" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-6" value="resolve参数减少配置&lt;br&gt;（alias，extensions，mainFiles）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="80" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-7" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="220" as="sourcePoint"/>
+            <mxPoint x="360" y="220" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-8" value="1、把第三方库，比如loadash，jquery，react打包成vender.js&amp;nbsp;&lt;br&gt;Moudule.export{&lt;br&gt;&amp;nbsp; &amp;nbsp; entry: {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; vender: [loadash, jquery, react]&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;}&lt;br&gt;2、使用add-assets-html-plungin把这个模块添加到html模板里。&lt;br&gt;new addAssetHtmlPlungin({&lt;br&gt;&amp;nbsp; &amp;nbsp; filePath: &#39;vender.js&#39;&lt;br&gt;})&lt;br&gt;3、使用DllPlungin给vender生成映射文件&lt;br&gt;new webpack.DllPlungin({&lt;br&gt;&amp;nbsp; &amp;nbsp; name: &#39;[name]&#39;,&lt;br&gt;&amp;nbsp; &amp;nbsp; path: &#39;[name]&#39;.mainfest.json&lt;br&gt;})&lt;br&gt;4、使用DllRefererencePlungin加载这个映射文件&lt;br&gt;new webpack.DllRefererencePlungin({&lt;br&gt;&amp;nbsp; &amp;nbsp; path: &#39;[name]&#39;.mainfest.json&lt;br&gt;})&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="360" y="190" width="310" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-9" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint"/>
+            <mxPoint x="250" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-10" value="happypack&lt;br&gt;thread-loader&lt;br&gt;parallel-webpack&lt;br&gt;多进程打包" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="310" width="120" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-11" value="" style="endArrow=classic;html=1;" parent="1" target="_NRvsdvPK4iffQacENfM-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="290" as="sourcePoint"/>
+            <mxPoint x="90" y="430" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRvsdvPK4iffQacENfM-12" value="合理使用sourcemap" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="400" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
